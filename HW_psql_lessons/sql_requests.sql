@@ -103,5 +103,3 @@ select a.actor_lastname, a.actor_firstname, f.release_year, f.film_name, f.direc
  Downey Jr.     | Robert          |         2009 | Sherlock Holmes | Ritchie           | Guy
  Jackman        | Hugh            |         2006 | The Prestige    | Nolan             | Chirstopher
  Perkins        | Antony          |         1960 | Psycho          | Hitchcock         | Alfred
-
-
