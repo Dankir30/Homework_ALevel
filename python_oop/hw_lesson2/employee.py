@@ -16,13 +16,13 @@ class Employee:
         return self.salary_per_one_day <= other.salary_per_one_day
 
     def __eq__(self, other):
-        return self.salary_per_one_day > other.salary_per_one_day
+        return self.salary_per_one_day == other.salary_per_one_day
 
     def __gt__(self, other):
-        return self.salary_per_one_day >= other.salary_per_one_day
+        return self.salary_per_one_day > other.salary_per_one_day
 
     def __ge__(self, other):
-        return self.salary_per_one_day == other.salary_per_one_day
+        return self.salary_per_one_day >= other.salary_per_one_day
 
     def __ne__(self, other):
         return self.salary_per_one_day != other.salary_per_one_day
@@ -60,13 +60,13 @@ class Developer(Employee):
         return len(self.tech_stack) <= len(other.tech_stack)
 
     def __eq__(self, other):
-        return len(self.tech_stack) > len(other.tech_stack)
+        return len(self.tech_stack) == len(other.tech_stack)
 
     def __gt__(self, other):
-        return len(self.tech_stack) >= len(other.tech_stack)
+        return len(self.tech_stack) > len(other.tech_stack)
 
     def __ge__(self, other):
-        return len(self.tech_stack) == len(other.tech_stack)
+        return len(self.tech_stack) >= len(other.tech_stack)
 
     def __ne__(self, other):
         return len(self.tech_stack) != len(other.tech_stack)
