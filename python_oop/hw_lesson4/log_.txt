@@ -1,0 +1,12 @@
+2023-02-25 10:33:35.822454
+ Traceback (most recent call last):
+  File "C:\Users\Dankir\PycharmProjects\pythonProject\python_oop\hw_lesson4\main.py", line 26, in <module>
+    main()
+  File "C:\Users\Dankir\PycharmProjects\pythonProject\python_oop\hw_lesson4\main.py", line 11, in main
+    jonny = Recruiter('Jonny', 3.50, 'bbbbbb@gmail.com')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dankir\PycharmProjects\pythonProject\python_oop\hw_lesson4\employee_class.py", line 11, in __init__
+    self.validate()
+  File "C:\Users\Dankir\PycharmProjects\pythonProject\python_oop\hw_lesson4\employee_class.py", line 22, in validate
+    raise EmailAlreadyExistsException
+custom_exceptions.EmailAlreadyExistsException
